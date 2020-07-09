@@ -1,0 +1,47 @@
+/**
+ |-----------------------------
+ | Custom SCSS !!
+ | @author Abhinav Rajpurohit
+ | @version 1.0.0
+ |-----------------------------
+ */
+ @import "./_variables.scss"; 
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F4F5F7 !important;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+/**
+ * Search Icon Component CSS
+ */
+.has-search {
+    width: 30%;
+
+    .form-control {
+        padding-left: 2.375rem;
+    }    
+
+    .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: $dark-grey;
+    }
+}
+  
