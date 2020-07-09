@@ -10,9 +10,9 @@ import { useHistory } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { PageAssets, AssetsData, CryptoCurrencyVars, Markets } from '../../types/interfaces';
 import { GET_CRYPTO_CURRENCY } from '../../graphql/get-assets';
-import Loader from '../shared/Spinner';
-import Error from '../shared/Error';
-import NoDataMessage from '../shared/NoDataMessage';
+import Loader from '../Shared/Spinner';
+import Error from '../Shared/Error';
+import NoDataMessage from '../Shared/NoDataMessage';
 import { AppContext } from '../../App';
 
 /**
