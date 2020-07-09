@@ -8,7 +8,7 @@
 import React, { useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { AppContext } from '../../App';
-import NoDataMessage from '../shared/NoDataMessage';
+import NoDataMessage from '../Shared/NoDataMessage';
 
 /**
  * This is a cryptocurrency coin exchange markets component defination displaying coin exchange markets.
